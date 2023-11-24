@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes con Texto</title>
+    <style>
+        body {
+            background-color: #ecf0f1; /* Fondo azul claro */
+        }
+
+        .contenedor {
+            display: flex; /* Utilizamos flexbox para organizar en fila */
+            justify-content: center; /* Centra los elementos horizontalmente */
+            align-items: center; /* Centra los elementos verticalmente */
+            text-align: center; /* Centra el contenido horizontalmente */
+            /*flex-direction: column; /* Cambiamos la dirección a columna */
+        }
+        
+        .imagen {
+            width: 250px; /* Ajusta el tamaño de la imagen según sea necesario */
+            margin: 0 10px; /* Espacio entre las imágenes */
+        }
+
+        .titulo {
+            font-size: 24px;
+            color: black; /* Color del texto */
+            background-color: #05fff2; /* Fondo azul */
+            padding: 10px; /* Espacio alrededor del texto */
+            margin-bottom: 10px; /* Espacio entre el texto y las imágenes */
+        }
+
+        .texto {
+            text-align: center; /* Centra el texto debajo de cada imagen */
+            background-color: #f0e118; /* Fondo azul */
+            color: black; /* Texto en color blanco */
+            padding: 5px; /* Espacio alrededor del texto */
+            margin: 0; /* Elimina el margen */
+        }
+    </style>
+</head>
+<body>
+    <div><center> <h2><a class="titulo">Historia</a></div>
+    <div class="contenedor">
+        <figure>
+            <img src="C:\Users\jaime\Desktop\mejores.jpg" class="imagen" alt="NBA">
+            <figcaption class="texto">MEJOR JUGADOR EN LA HISTORIA DE LA NBA</figcaption>
+
+        </figure>
+    </div>
+</body>
+</html>
